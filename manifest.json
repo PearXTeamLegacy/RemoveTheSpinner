@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Remove The Spinner",
+  "version": "0.0.1",
+  "description": "Change VK's loading bar to the pretty gears! | Измените загрузочный бар ВКонтакте на милые шестеренки!",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://vk.com/*", "http://vk.com/*"]
+  }],
+  "permissions": [
+    "https://vk.com/*", "http://vk.com/*"
+  ],
+  "web_accessible_resources": [
+    "images/*.svg"
+  ]
+} 

@@ -1,0 +1,6 @@
+.fidget_spinner, .im-page--history.im-page--history_loading:before {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/gears.svg) !important;
+    -webkit-animation: none !important;
+    -o-animation: none !important;
+    animation: none !important;
+}
