@@ -4,3 +4,10 @@
     -o-animation: none !important;
     animation: none !important;
 }
+
+#box_loader .fidget_spinner {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/gears_40.svg) !important;
+    -webkit-animation: none !important;
+    -o-animation: none !important;
+    animation: none !important;
+}
